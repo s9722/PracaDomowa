@@ -17,8 +17,8 @@ namespace Praca_domowa
             Console.Write("Podaj drugą cyfrę: ");
             podajCyfre2 = Convert.ToInt32(Console.ReadLine());
 
-            if (podajCyfre1 > 9) Console.WriteLine("To jest liczba a nie cyfra!");
-            if (podajCyfre2 > 9) Console.WriteLine("To jest liczba a nie cyfra!");
+            //if (podajCyfre1 > 9) Console.WriteLine("To jest liczba a nie cyfra!");
+            //if (podajCyfre2 > 9) Console.WriteLine("To jest liczba a nie cyfra!");
             
             Console.WriteLine($"Iloczyn podanych cyfr to: {podajCyfre1 * podajCyfre2}");
 
